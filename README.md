@@ -21,7 +21,6 @@ FA-EvYOLO extends YOLO11n to detect floating litter on water surfaces when there
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Inference](#inference)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -211,8 +210,6 @@ By default, `predict.py` loads weights from `runs/detect/runs/FA_EvYOLO/train_ma
 **Pretrained weights:** download them from the [Releases](../../releases) page and place them at the path above.
 
 ---
-
-
 
 ## Acknowledgements
 
