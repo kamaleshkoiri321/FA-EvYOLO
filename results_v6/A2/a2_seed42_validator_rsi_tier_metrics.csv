@@ -1,0 +1,10 @@
+model,dataset,tier,AP50,AP50:95
+FA_EvYOLO_Remapped_Seed42,floating_waste,Low_RSI,0.1862,0.052
+FA_EvYOLO_Remapped_Seed42,floating_waste,Med_RSI,0.3369,0.1257
+FA_EvYOLO_Remapped_Seed42,floating_waste,High_RSI,0.3193,0.1157
+FA_EvYOLO_Remapped_Seed42,flow_img,Low_RSI,0.3699,0.1558
+FA_EvYOLO_Remapped_Seed42,flow_img,Med_RSI,0.4698,0.1724
+FA_EvYOLO_Remapped_Seed42,flow_img,High_RSI,0.3921,0.1513
+FA_EvYOLO_Remapped_Seed42,marine_litter,Low_RSI,0.9293,0.6056
+FA_EvYOLO_Remapped_Seed42,marine_litter,Med_RSI,0.9217,0.5821
+FA_EvYOLO_Remapped_Seed42,marine_litter,High_RSI,0.9243,0.5828

@@ -1,0 +1,9 @@
+Setting,Matching,AP_Interp,conf_thr,AP50
+"Validator Native (conf=0.001, iou=0.70, rect=True)",Score-desc,Ultralytics (sentinel),0.001,0.4398
+"Validator Native Truncated (conf=0.15, iou=0.65, rect=True)",Score-desc,Ultralytics (sentinel),0.15,0.3462
+"Dense Custom Square (conf=0.001, iou=0.70, square=640)",Score-desc,Ultralytics (sentinel),0.001,0.4435
+"Dense Custom Square + Op-Interp (conf=0.001, square=640)",Score-desc,Op-Point (no sentinel),0.001,0.4661
+Op-Point Detections + Validator Matching & Interp,Score-desc,Ultralytics (sentinel),0.15,0.3473
+Op-Point Detections + IoU Matching & Validator Interp,IoU-desc,Ultralytics (sentinel),0.15,0.3462
+Op-Point Detections + Score Matching & Op Interp,Score-desc,Op-Point (no sentinel),0.15,0.5658
+Op-Point Pipeline Original (Reported in A3),IoU-desc,Op-Point (no sentinel),0.15,0.5647

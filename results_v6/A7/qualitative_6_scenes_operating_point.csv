@@ -1,0 +1,7 @@
+dataset,image,RSI,tier,n_gt,YOLO11n_TP,YOLO11n_FP,YOLO11n_glare_FP,FA_EvYOLO_M4_TP,FA_EvYOLO_M4_FP,FA_EvYOLO_M4_glare_FP,FP_reduction,glare_FP_reduction
+floating_waste,400_jpg.rf.2c6cf9c3aeb4967fd29cbc6a748c5936.jpg,0.2545,Med_RSI,2,0,4,2,0,0,0,4,2
+flow_img,000514_jpg.rf.eb6f2bbf5d27bd5470221bf7d761c5cf.jpg,0.2623,Low_RSI,1,0,2,0,0,1,0,1,0
+flow_img,000009_jpg.rf.47e4b4d4fb3adccb05bc4f1e0396dfd4.jpg,0.6647,High_RSI,2,1,1,1,1,0,0,1,1
+floating_waste,357_jpg.rf.4677337bb97c0680b2bddc59d299fbdb.jpg,0.1526,Low_RSI,3,1,4,0,1,1,0,3,0
+flow_img,001186_jpg.rf.12c73641bdcb34c775f1864c8ed4f856.jpg,0.3913,Med_RSI,1,0,0,0,0,0,0,0,0
+flow_img,000293_jpg.rf.eac6737c283c2d04e0641782bfcd7104.jpg,0.7093,High_RSI,2,0,0,0,0,0,0,0,0

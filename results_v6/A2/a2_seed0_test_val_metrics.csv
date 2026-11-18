@@ -1,0 +1,4 @@
+model,dataset,split,eval_conf,eval_iou,Precision,Recall,F1,mAP50,mAP50_95
+FA_EvYOLO_Remapped_Seed0,marine_litter,test,0.001,0.7,0.8665,0.8899,0.878,0.9351,0.5972
+FA_EvYOLO_Remapped_Seed0,floating_waste,test,0.001,0.7,0.527,0.2812,0.3668,0.2649,0.091
+FA_EvYOLO_Remapped_Seed0,flow_img,test,0.001,0.7,0.6278,0.3962,0.4858,0.4166,0.1641

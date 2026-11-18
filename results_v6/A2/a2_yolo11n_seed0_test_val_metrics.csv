@@ -1,0 +1,4 @@
+model,dataset,split,eval_conf,eval_iou,Precision,Recall,F1,mAP50,mAP50_95
+YOLO11n_MuSGD_Seed0,marine_litter,test,0.001,0.7,0.8696,0.8826,0.876,0.9274,0.5931
+YOLO11n_MuSGD_Seed0,floating_waste,test,0.001,0.7,0.4352,0.279,0.34,0.2356,0.0798
+YOLO11n_MuSGD_Seed0,flow_img,test,0.001,0.7,0.6268,0.415,0.4994,0.4479,0.1742

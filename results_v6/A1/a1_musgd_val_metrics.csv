@@ -1,0 +1,5 @@
+model,dataset,split,precision,recall,AP50,AP50:95
+YOLO11n_MuSGD_seed42,marine_litter,val,0.8613,0.8924,0.9357,0.6075
+YOLO11n_MuSGD_seed42,marine_litter,test,0.8526,0.8988,0.9264,0.5932
+YOLO11n_MuSGD_seed42,floating_waste,test,0.3926,0.3013,0.2355,0.0786
+YOLO11n_MuSGD_seed42,flow_img,test,0.6485,0.4025,0.4398,0.1704

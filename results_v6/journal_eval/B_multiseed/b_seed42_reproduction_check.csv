@@ -1,0 +1,7 @@
+table,existing_csv,rows_old,rows_new,unmatched_rows,cells_compared,cells_different,max_abs_diff_after_rounding,exact_match
+a3_error_table_M1_M4,D:\Journal-Project\results_v6\A3\table_a3_operating_point_errors.csv,12,12,0,108,0,0.0,True
+a4_postprocessing_comparison,D:\Journal-Project\results_v6\A4\table_a4_postprocessing_comparison.csv,51,51,0,459,0,0.0,True
+item16_uncertainty_auroc,D:\Journal-Project\results_v6\Item16\item16_uncertainty_auroc.csv,3,3,0,36,0,0.0,True
+calibration_dece_brier,D:\Journal-Project\results_v6\calibration_d_ece_brier_canonical.csv,3,3,0,12,0,0.0,True
+c3_mmd,D:\Journal-Project\results_v6\C3\c3_mmd_results.csv,16,16,0,16,0,0.0,True
+c3_amplitude_spread,D:\Journal-Project\results_v6\C3\c3_san_pcg_amplitude_variance.csv,6,6,0,6,0,0.0,True

@@ -1,0 +1,10 @@
+dataset,model_config,n_detections,D_ECE_10bins,Brier_Score
+marine_litter,M1_Baseline_YOLO11n,1976,0.1019,0.1279
+marine_litter,M2_FA_EvYOLO_SAN_PCG,1993,0.1257,0.1309
+marine_litter,M4_FA_EvYOLO_Full_RU_NMS,1974,0.1624,0.146
+floating_waste,M1_Baseline_YOLO11n,629,0.0929,0.1979
+floating_waste,M2_FA_EvYOLO_SAN_PCG,843,0.1112,0.192
+floating_waste,M4_FA_EvYOLO_Full_RU_NMS,794,0.0579,0.1965
+flow_img,M1_Baseline_YOLO11n,861,0.1899,0.2037
+flow_img,M2_FA_EvYOLO_SAN_PCG,1006,0.1532,0.1908
+flow_img,M4_FA_EvYOLO_Full_RU_NMS,942,0.2108,0.207

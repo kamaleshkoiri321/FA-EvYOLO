@@ -1,0 +1,4 @@
+model,tier,n_gt,TP,FP,Precision,Recall,AP50
+FA_EvYOLO_Remapped_Seed42_M4,Low_RSI,528,495,151,0.7663,0.9375,0.9022
+FA_EvYOLO_Remapped_Seed42_M4,Med_RSI,534,501,174,0.7422,0.9382,0.8918
+FA_EvYOLO_Remapped_Seed42_M4,High_RSI,509,479,139,0.7751,0.9411,0.9112

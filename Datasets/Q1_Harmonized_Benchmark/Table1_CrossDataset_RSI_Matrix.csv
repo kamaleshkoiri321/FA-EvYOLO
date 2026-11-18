@@ -1,0 +1,25 @@
+Model,Train_Source,Test_Target,Domain_Shift,RSI_Glare_Level,mAP_50,mAP_50_95
+Baseline_YOLO11n,marine_litter,marine_litter,In-Domain,ALL,0.9245,0.5929
+Baseline_YOLO11n,marine_litter,marine_litter,In-Domain,Low_RSI,0.9311,0.6058
+Baseline_YOLO11n,marine_litter,marine_litter,In-Domain,Med_RSI,0.9205,0.5793
+Baseline_YOLO11n,marine_litter,marine_litter,In-Domain,High_RSI,0.9217,0.5975
+Baseline_YOLO11n,marine_litter,floating_waste,Out-of-Domain (Zero-Shot),ALL,0.2266,0.074
+Baseline_YOLO11n,marine_litter,floating_waste,Out-of-Domain (Zero-Shot),Low_RSI,0.1502,0.0381
+Baseline_YOLO11n,marine_litter,floating_waste,Out-of-Domain (Zero-Shot),Med_RSI,0.2978,0.111
+Baseline_YOLO11n,marine_litter,floating_waste,Out-of-Domain (Zero-Shot),High_RSI,0.2789,0.1034
+Baseline_YOLO11n,marine_litter,flow_img,Out-of-Domain (Zero-Shot),ALL,0.3987,0.1468
+Baseline_YOLO11n,marine_litter,flow_img,Out-of-Domain (Zero-Shot),Low_RSI,0.3064,0.1214
+Baseline_YOLO11n,marine_litter,flow_img,Out-of-Domain (Zero-Shot),Med_RSI,0.4717,0.1679
+Baseline_YOLO11n,marine_litter,flow_img,Out-of-Domain (Zero-Shot),High_RSI,0.4221,0.157
+FA-EvYOLO (Ours),marine_litter,marine_litter,In-Domain,ALL,0.9248,0.5836
+FA-EvYOLO (Ours),marine_litter,marine_litter,In-Domain,Low_RSI,0.9309,0.5945
+FA-EvYOLO (Ours),marine_litter,marine_litter,In-Domain,Med_RSI,0.9197,0.5734
+FA-EvYOLO (Ours),marine_litter,marine_litter,In-Domain,High_RSI,0.9304,0.586
+FA-EvYOLO (Ours),marine_litter,floating_waste,Out-of-Domain (Zero-Shot),ALL,0.2462,0.0733
+FA-EvYOLO (Ours),marine_litter,floating_waste,Out-of-Domain (Zero-Shot),Low_RSI,0.1988,0.0459
+FA-EvYOLO (Ours),marine_litter,floating_waste,Out-of-Domain (Zero-Shot),Med_RSI,0.3082,0.1052
+FA-EvYOLO (Ours),marine_litter,floating_waste,Out-of-Domain (Zero-Shot),High_RSI,0.2722,0.0946
+FA-EvYOLO (Ours),marine_litter,flow_img,Out-of-Domain (Zero-Shot),ALL,0.4622,0.1779
+FA-EvYOLO (Ours),marine_litter,flow_img,Out-of-Domain (Zero-Shot),Low_RSI,0.4424,0.185
+FA-EvYOLO (Ours),marine_litter,flow_img,Out-of-Domain (Zero-Shot),Med_RSI,0.4905,0.1783
+FA-EvYOLO (Ours),marine_litter,flow_img,Out-of-Domain (Zero-Shot),High_RSI,0.4559,0.1777

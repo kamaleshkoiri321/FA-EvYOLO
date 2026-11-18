@@ -1,0 +1,6 @@
+path: D:\Journal-Project\Datasets\Q1_Harmonized_Benchmark\flow_img
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: floating_litter

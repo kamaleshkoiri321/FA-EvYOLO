@@ -1,0 +1,6 @@
+path: D:\Journal-Project\Datasets\Q1_Harmonized_Benchmark\marine_litter
+train: rsi_strata_val\High_RSI\images
+val: rsi_strata_val\High_RSI\images
+test: rsi_strata_val\High_RSI\images
+names:
+  0: floating_litter

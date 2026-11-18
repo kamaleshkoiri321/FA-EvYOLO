@@ -1,0 +1,76 @@
+# Whitelist approach: ignore everything, then allow only what belongs in the repo.
+/*
+!/.gitignore
+!/README.md
+
+# ---- Core model / inference ----
+!/fa_evyolo.yaml
+!/fa_evyolo_modules.py
+!/predict.py
+!/Ablation_Experiments/
+/Ablation_Experiments/*
+!/Ablation_Experiments/fa_evyolo_architecture.yaml
+
+# ---- Training ----
+!/phase1.ipynb
+!/train.ipynb
+!/train_a1_baseline.py
+
+# ---- Evaluation ----
+!/journal_eval_a1.py
+!/journal_eval_a2.py
+!/journal_eval_a3.py
+!/eval_table2_cleaned.py
+!/run_a3_error_table.py
+!/run_a4_postprocessing_comparison.py
+!/benchmark_latency.py
+!/execute_task*.py
+!/compare_heldout_phash.py
+!/run_phash_check.py
+
+# ---- Final paper figures (images only, no generation code) ----
+!/figures/
+/figures/*
+!/figures/Fig1_*
+!/figures/Fig2_FA_EvYOLO_Framework_Architecture.*
+!/figures/Fig3_*
+!/figures/Fig4_*
+!/figures/Fig5_*
+!/figures/Fig6_*
+!/figures/Fig7_*
+!/figures/Fig_Model_Architecture_Detail.*
+!/figures/Fig_Qualitative_Detections_4Examples_Grid.*
+!/figures/Fig_System_Architecture_Overview.*
+!/figures/Table4_*
+
+# ---- Result tables + split configs (no images/labels) ----
+!/Datasets/
+/Datasets/*
+!/Datasets/Q1_Harmonized_Benchmark/
+/Datasets/Q1_Harmonized_Benchmark/**/*
+!/Datasets/Q1_Harmonized_Benchmark/**/
+!/Datasets/Q1_Harmonized_Benchmark/*.csv
+/Datasets/Q1_Harmonized_Benchmark/*_BACKUP_ORIGINAL.csv
+!/Datasets/Q1_Harmonized_Benchmark/*/*.yaml
+
+# ---- Experiment metrics (CSV / JSON / run configs; no weights or images) ----
+!/results_v6/
+/results_v6/**/*
+!/results_v6/**/
+!/results_v6/**/*.csv
+!/results_v6/**/*.json
+!/results_v6/**/args.yaml
+
+# Duplicates / third-party data inside results_v6
+/results_v6/claude_deliverables/
+/results_v6/journal_eval/D_external/extracted/
+
+# Working crops (Windows matches Fig5_* case-insensitively)
+/figures/fig5_crop_*
+
+# ---- Always exclude, even inside allowed folders ----
+*.pt
+*.pth
+*.onnx
+__pycache__/
+~$*

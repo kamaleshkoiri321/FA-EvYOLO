@@ -1,0 +1,13 @@
+Dataset,Domain_Shift,Model_Configuration,Precision,Recall,mAP_50,mAP_50_95,Total_FP
+marine_litter,In-Domain,M1_Baseline_YOLO11n,0.8738,0.8635,0.9224,0.5941,196
+marine_litter,In-Domain,M2_FA_EvYOLO_SAN_PCG,0.8749,0.8679,0.924,0.5917,195
+marine_litter,In-Domain,M3_FA_EvYOLO_Vacuity_NMS,0.8732,0.872,0.9244,0.5918,199
+marine_litter,In-Domain,M4_FA_EvYOLO_Full_RU_NMS,0.8799,0.867,0.9228,0.5897,186
+floating_waste,Zero-Shot OOD,M1_Baseline_YOLO11n,0.4233,0.2632,0.2218,0.075,320
+floating_waste,Zero-Shot OOD,M2_FA_EvYOLO_SAN_PCG,0.5282,0.2699,0.2442,0.0783,216
+floating_waste,Zero-Shot OOD,M3_FA_EvYOLO_Vacuity_NMS,0.5303,0.269,0.2465,0.0787,213
+floating_waste,Zero-Shot OOD,M4_FA_EvYOLO_Full_RU_NMS,0.5242,0.269,0.24,0.0764,219
+flow_img,Zero-Shot OOD,M1_Baseline_YOLO11n,0.6181,0.3704,0.3995,0.1496,354
+flow_img,Zero-Shot OOD,M2_FA_EvYOLO_SAN_PCG,0.6581,0.4224,0.4612,0.1823,339
+flow_img,Zero-Shot OOD,M3_FA_EvYOLO_Vacuity_NMS,0.6597,0.422,0.4612,0.1826,336
+flow_img,Zero-Shot OOD,M4_FA_EvYOLO_Full_RU_NMS,0.6646,0.4194,0.4567,0.1791,327

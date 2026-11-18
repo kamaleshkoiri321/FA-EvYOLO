@@ -1,0 +1,7 @@
+layer,scale,point,mean_between_dataset_std
+23,P3,IN,0.12722
+23,P3,OUT,0.090273
+24,P4,IN,0.163365
+24,P4,OUT,0.115892
+25,P5,IN,0.274198
+25,P5,OUT,0.159488

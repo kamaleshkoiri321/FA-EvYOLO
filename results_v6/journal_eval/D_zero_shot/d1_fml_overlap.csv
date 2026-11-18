@@ -1,0 +1,10 @@
+benchmark_dataset,split,n_images,filename_matches_in_FML
+marine_litter,train,5136,5136
+marine_litter,val,711,711
+marine_litter,test,348,348
+floating_waste,train,6352,0
+floating_waste,val,607,0
+floating_waste,test,306,0
+flow_img,train,4794,0
+flow_img,val,599,0
+flow_img,test,599,0

@@ -1,0 +1,4 @@
+dataset,TP_count,TP_mean_u,TP_mean_u_g,NonGlare_FP_count,NonGlare_FP_mean_u,NonGlare_FP_mean_u_g,Glare_FP_count,Glare_FP_mean_u,Glare_FP_mean_u_g,AUROC_Conf,AUROC_u,AUROC_u_g
+marine_litter,1485,0.2685,0.2845,446,0.4495,0.4589,105,0.4354,0.5514,0.896,0.8958,0.8913
+floating_waste,283,0.3369,0.3723,287,0.4677,0.4791,53,0.4279,0.5253,0.7671,0.7733,0.739
+flow_img,555,0.3497,0.3889,212,0.4887,0.5012,59,0.4821,0.6027,0.7946,0.8072,0.7682

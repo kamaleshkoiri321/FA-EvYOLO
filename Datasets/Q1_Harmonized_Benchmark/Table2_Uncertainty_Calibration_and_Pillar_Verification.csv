@@ -1,0 +1,4 @@
+Dataset,Domain,Detections_Evaluated,Uncal_D-ECE,Cal_D-ECE (Same Box),Pipeline_D-ECE (RU-NMS),Uncal_Brier,Cal_Brier (Same Box),AUROC_u_cls,AUROC_Ev+Glare,AUPR_Error_Detect,Mean_u (TP),Mean_u (FP_All),Mean_u (FP_Glare),Mean_u (FP_NonGlare),MannWhitney_p (All),MannWhitney_p (Glare)
+marine_litter,In-Domain,1993,0.126,0.1976,0.2057,0.1309,0.1582,0.8869,0.8807,0.7257,0.3531,0.5492,0.6459,0.5261,0.00e+00,0.00e+00
+floating_waste,Zero-Shot OOD,843,0.1164,0.0642,0.0719,0.1913,0.184,0.7729,0.7299,0.7661,0.4348,0.5407,0.6244,0.529,5.94e-29,1.54e-18
+flow_img,Zero-Shot OOD,1006,0.1532,0.2326,0.2417,0.1908,0.2257,0.8145,0.7708,0.5684,0.4526,0.5831,0.6755,0.5662,0.00e+00,4.43e-20

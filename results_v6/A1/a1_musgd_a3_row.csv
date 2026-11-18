@@ -1,0 +1,4 @@
+dataset,model_config,TP,FN,FP,glare_FP,FP_on_empty,Precision,Recall,F1,AP50,AP50:95
+marine_litter,M1_Baseline_YOLO11n_MuSGD,1486,85,490,94,0,0.752,0.9459,0.8379,0.9182,0.6314
+floating_waste,M1_Baseline_YOLO11n_MuSGD,256,640,373,49,0,0.407,0.2857,0.3357,0.35,0.1415
+flow_img,M1_Baseline_YOLO11n_MuSGD,610,960,251,34,0,0.7085,0.3885,0.5019,0.5647,0.2707

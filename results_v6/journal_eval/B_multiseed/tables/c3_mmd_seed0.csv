@@ -1,0 +1,17 @@
+model,source,target,scale,MMD
+YOLO11n,marine_litter,floating_waste,P3 (16),0.7047174950354667
+YOLO11n,marine_litter,floating_waste,P4 (19),0.7037465448295516
+YOLO11n,marine_litter,floating_waste,P5 (22),0.4555728110610673
+YOLO11n,marine_litter,floating_waste,Concat,0.5095796992830623
+YOLO11n,marine_litter,flow_img,P3 (16),0.6187689248052165
+YOLO11n,marine_litter,flow_img,P4 (19),0.6369781771199825
+YOLO11n,marine_litter,flow_img,P5 (22),0.518061975095722
+YOLO11n,marine_litter,flow_img,Concat,0.5430967281614255
+FA-EvYOLO,marine_litter,floating_waste,P3 (23),0.6972603632006558
+FA-EvYOLO,marine_litter,floating_waste,P4 (24),0.6023365116007487
+FA-EvYOLO,marine_litter,floating_waste,P5 (25),0.5003122906923042
+FA-EvYOLO,marine_litter,floating_waste,Concat,0.5200460534203434
+FA-EvYOLO,marine_litter,flow_img,P3 (23),0.5641090042373467
+FA-EvYOLO,marine_litter,flow_img,P4 (24),0.5189999029960416
+FA-EvYOLO,marine_litter,flow_img,P5 (25),0.3794815731809042
+FA-EvYOLO,marine_litter,flow_img,Concat,0.4158727238539454

@@ -1,0 +1,4 @@
+model,dataset,N_dets,D_ECE,Brier,n_bins,bin_range
+M1_Baseline_YOLO11n,all,3466,0.0863,0.1594,10,"[0.15, 1.0]"
+M2_FA_EvYOLO_SAN_PCG,all,3485,0.0775,0.1549,10,"[0.15, 1.0]"
+M4_FA_EvYOLO_Full_RU_NMS,all,3247,0.1537,0.1733,10,"[0.15, 1.0]"

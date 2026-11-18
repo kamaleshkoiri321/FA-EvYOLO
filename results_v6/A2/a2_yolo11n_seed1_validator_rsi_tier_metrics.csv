@@ -1,0 +1,10 @@
+model,dataset,tier,AP50,AP50:95
+YOLO11n_MuSGD_Seed1,floating_waste,Low_RSI,0.2042,0.0488
+YOLO11n_MuSGD_Seed1,floating_waste,Med_RSI,0.2888,0.1119
+YOLO11n_MuSGD_Seed1,floating_waste,High_RSI,0.2489,0.0844
+YOLO11n_MuSGD_Seed1,flow_img,Low_RSI,0.4297,0.1873
+YOLO11n_MuSGD_Seed1,flow_img,Med_RSI,0.4669,0.1818
+YOLO11n_MuSGD_Seed1,flow_img,High_RSI,0.4566,0.176
+YOLO11n_MuSGD_Seed1,marine_litter,Low_RSI,0.9297,0.6078
+YOLO11n_MuSGD_Seed1,marine_litter,Med_RSI,0.9093,0.5752
+YOLO11n_MuSGD_Seed1,marine_litter,High_RSI,0.9408,0.6017

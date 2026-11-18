@@ -1,0 +1,7 @@
+{
+  "seed": 0,
+  "yolo11n_weights": "D:\\Journal-Project\\results_v6\\A2\\train_yolo11n_musgd_seed0\\weights\\best.pt",
+  "fa_evyolo_runB_weights": "D:\\Journal-Project\\results_v6\\A2\\train_fa_evyolo_remapped_seed0\\weights\\best.pt",
+  "eval_canonical_device": "cpu",
+  "eval_common_device(c3)": "cuda"
+}

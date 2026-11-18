@@ -1,0 +1,13 @@
+new_dataset,reference_set,n_new,n_ref,pairs_dist_le_4,min_hamming_distance,n_new_images_with_le4
+oostpoort,marine_litter_TRAIN,562,5136,0,14,0
+oostpoort,marine_litter_test,562,348,0,18,0
+oostpoort,floating_waste_test,562,306,0,15,0
+oostpoort,flow_img_test,562,599,0,16,0
+groningen,marine_litter_TRAIN,63,5136,0,13,0
+groningen,marine_litter_test,63,348,0,15,0
+groningen,floating_waste_test,63,306,0,18,0
+groningen,flow_img_test,63,599,0,12,0
+amsterdam_v2,marine_litter_TRAIN,92,5136,0,10,0
+amsterdam_v2,marine_litter_test,92,348,0,12,0
+amsterdam_v2,floating_waste_test,92,306,0,16,0
+amsterdam_v2,flow_img_test,92,599,0,13,0
