@@ -21,7 +21,6 @@ FA-EvYOLO extends YOLO11n to detect floating litter on water surfaces when there
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Inference](#inference)
-- [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -213,26 +212,7 @@ By default, `predict.py` loads weights from `runs/detect/runs/FA_EvYOLO/train_ma
 
 ---
 
-## Citation
 
-If you use this code, please cite:
-
-```bibtex
-@article{faevyolo2026,
-  title   = {FA-EvYOLO: Frequency-Aware Evidential YOLO for Glare-Robust Floating Litter Detection},
-  author  = {<Author list>},
-  journal = {<Journal>},
-  year    = {2026}
-}
-```
-
----
-
-## License
-
-The code is released under the **AGPL-3.0** license, the same license as [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), on which it is built. The datasets keep their original **CC BY 4.0** licenses.
-
----
 
 ## Acknowledgements
 
